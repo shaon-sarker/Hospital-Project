@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEDP Project</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Health Center</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item text-center">
+                        <a class="nav-link p-3" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link p-3" href="#about">About us</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link p-3" href="#doctor">Doctors</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link p-3" href="#News">News</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link p-3" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <button class="btn btn-dark p-3" data-target="#shaon" data-toggle="modal">Make an
+                            appointment</button>
+
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-------header section-->
+    <div class="contain">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">First slide label</h5>
+                        <p class="text-dark">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">Second slide label</h5>
+                        <p class="text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="images/3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-dark">Third slide label</h5>
+                        <p class="text-dark">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <div class="about-info">
+                        <h2 class="wow fadeInUp" data-wow-delay="0.6s">Welcome to Your <i
+                                class="fa fa-h-square"></i>ealth
+                            Center</h2>
+                        <div class="wow fadeInUp" data-wow-delay="0.8s">
+                            <p>Aenean luctus lobortis tellus, vel ornare enim molestie condimentum. Curabitur lacinia
+                                nisi
+                                vitae velit volutpat venenatis.</p>
+                            <p>Sed a dignissim lacus. Quisque fermentum est non orci commodo, a luctus urna mattis. Ut
+                                placerat, diam a tempus vehicula.</p>
+                        </div>
+                        <figure class="profile wow fadeInUp" data-wow-delay="1s">
+                            <img src="images/author-image.jpg" class="img-responsive" alt="">
+                            <figcaption>
+                                <h3>Dr. Neil Jackson</h3>
+                                <p>General Principal</p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!------->
+
+    <div id="doctor" class="mt-5">
+        <h2 class="display-4 text-center">Doctors</h2>
+        <p class="d-flex justify-content-center align-items-center">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Reiciendis a odit laudantium veritatis tempore
+            maxime expedita facilis possimus magni impedit.</p>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/team-image1.jpg" alt="" width="100%" height="auto">
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card-body text-left">
+                        <h3>Nate Baston</h3>
+                        <p>General Principal
+                        </p>
+                        <div class="team-contact-info">
+                            <p><i class="fa fa-phone"></i> 010-020-0120</p>
+                            <p><i class="fa fa-envelope-open"></i> <a href="#">general@company.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Doctor Info
+                </button>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/team-image2.jpg" alt="" width="100%" height="auto">
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card-body text-left">
+                        <h3>Jason Stewart</h3>
+                        <p>Pregnancy</p>
+                        <div class="team-contact-info">
+                            <p><i class="fa fa-phone"></i> 010-020-0120</p>
+                            <p><i class="fa fa-envelope-open"></i> <a href="#">Pregnancy@company.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Doctor Info
+                </button>
+
+
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/team-image3.jpg" alt="" width="100%" height="auto">
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card-body text-left">
+                        <h3>Miasha Nakahara</h3>
+                        <p>Cardiology</p>
+                        <div class="team-contact-info">
+                            <p><i class="fa fa-phone"></i> 010-020-0120</p>
+                            <p><i class="fa fa-envelope-open"></i> <a href="#">Cardiology@company.com</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                    aria-expanded="false" aria-controls="collapseExample">
+                    Doctor Info
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="class my-5" id="News">
+        <h2 class="display-4 text-center">least News</h2>
+        <p class="d-flex justify-content-center align-items-center">Lorem ipsum dolor sit amet consectetur adipisicing
+            elit. Vero ut id architecto quos nihil eum accusantium
+            deserunt asperiores odio necessitatibus?</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/news-image1.jpg" alt="" width="100%" height="auto">
+                    <div class="card-body text-left">
+                        <p>March 08, 2018</p>
+                        <h3>About Amazing Technology</h3>
+                        <p>Maecenas risus neque, placerat volutpat tempor ut, vehicula et felis.
+                        </p>
+                        <div class="author">
+                            <img src="images/author-image.jpg" class="img-fluid rounded-circle w-25" alt="">
+                            <div class="author-info px-3">
+                                <h5>Jeremie Carlson</h5>
+                                <p>CEO / Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/news-image2.jpg" alt="" width="100%" height="auto">
+                    <div class="card-body text-left">
+                        <p>February 20, 2018</p>
+                        <h3>Introducing a new healing process</h3>
+                        <p>Fusce vel sem finibus, rhoncus massa non, aliquam velit. Nam et est ligula.</p>
+                        <div class="author">
+                            <img src="images/author-image.jpg" class="img-fluid rounded-circle w-25" alt="">
+                            <div class="author-info px-3">
+                                <h5>Jeremie Carlson</h5>
+                                <p>CEO / Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="card">
+                    <img src="images/news-image3.jpg" alt="" width="100%" height="auto">
+                    <div class="card-body text-left">
+                        <p>January 27, 2018</p>
+                        <h3>Review Annual Medical Research</h3>
+                        <p>Vivamus non nulla semper diam cursus maximus. Pellentesque dignissim.</p>
+                        <div class="author">
+                            <img src="images/author-image.jpg" class="img-fluid rounded-circle w-25" alt="">
+                            <div class="author-info px-3">
+                                <h5>Jeremie Carlson</h5>
+                                <p>CEO / Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+
+
+    <!----footer section-->
+
+
+    <div class="modal text-center" id="shaon">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="px-4">Time & date</h2>
+                    <button class="btn" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <p>Date : 28/02/2020</p>
+                    <p>time : 2.30pm</p>
+                </div>
+
+                <div class="modal-footer bg-dark">
+                    <button class="btn btn-dark" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <div id="contact">
+        <div class="map d-flex justify-content-center align-items-center display-4 py-5">
+            Contact
+        </div>
+        <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+            <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                style="border:0" allowfullscreen></iframe>
+        </div>
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mt-5 mb-lg-0 mb-lg-3">
+                            <h3>Contact Info</h3>
+                            <p class="font-weight-light">This theme will look great on any device, no matter the size!
+                                This theme will look great on any device, no matter the sizeThis theme will look great
+                                on
+                                any
+                                device, no matter the size!!
+                                <br>
+                                <img src="images/phone3.jfif" height="20px" width="20px" />&nbsp;&nbsp;017255665445
+                                <br>
+                                <img src="images/email.png" height="20px" width="20px" />&nbsp;&nbsp;info@company.com
+                                <br> <br> <br> <br>
+                                <span class="font-weight-normal" style="font-size:12px">Copyright</span>&nbsp;&nbsp;<img
+                                    src="image/copyright.png" height="12px" width="14px" />&nbsp;&nbsp;
+                                <span class="font-weight-normal" style="font-size:12px">2017 Your Company | Test
+                                    Technologies</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mt-5 mb-lg-0 mb-lg-3">
+                            <h3>Latest News</h3>
+                            <table style="width:100%;cellspacing:0;cellpadding:0">
+                                <tr>
+                                    <td rowspan="2" style="width:10%;vertical-align:middle;text-align:left"><img
+                                            src="images/latestnews2.png" height="60px" width="60px" /></td>
+                                    <td style="width:90%;vertical-align:bottom;text-align:left"><span
+                                            class="font-weight-bold">Amazing Technology</span>
+                                        <br><span class="font-weight-normal" style="font-size:12px">March 06,2008</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2" style="width:20%;vertical-align:middle;text-align:left"><img
+                                            src="images/latestnews2.png" height="60px" width="60px" /></td>
+                                    <td style="width:80%;vertical-align:bottom;text-align:left"><span
+                                            class="font-weight-bold">Amazing Technology</span>
+                                        <br><span class="font-weight-normal" style="font-size:12px">March 06,2008</span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                            <br> <br> <br>
+                            <span class="font-weight-normal" style="font-size:12px">Laboratory Test Departments
+                                Insurance
+                                Company</span>
+
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="features-icons-item mx-auto mt-5 mb-lg-3">
+                            <h3>Opening Hours</h3>
+                            <p class="font-weight-light">Monday-Friday 06:00 AM-10:00 PM <br><br>
+                                Saturday 09:00 AM - 08:00 PM
+                                <br><br>
+                                Sunday Closed
+                                <br><br>
+                                &nbsp;&nbsp;<img src="images/fb.png" height="15px"
+                                    width="15px" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img src="images/twiter.png" height="15px" width="15px" />&nbsp;&nbsp;&nbsp;&nbsp;
+                                <img src="images/instragram.png" height="15px" width="15px" />
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
